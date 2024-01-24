@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
 
-import os
 import sys
-import subprocess
 from openai import OpenAI
 from pathlib import Path
+from common import notify, get_api_key
 
 def make_payload(company_name, job_description):
   return  {
@@ -24,17 +23,9 @@ def make_payload(company_name, job_description):
     ]
   }
 
-
-def get_api_key():
-    return os.getenv('OPENAI_API_KEY')
-
-def notify(message):
-  subprocess.run(["notify-send", message])
-
 def main():
-    notify("starting script: " + __file__)
-    openai_client = OpenAI(api_key=get_api_key())
 
+    notify("starting script: " + __file__)
     filepath = Path(sys.argv[1])
     job_description = open(filepath, "r").read()
     company_name = filepath.name
@@ -42,9 +33,11 @@ def main():
     payload = make_payload(company_name, job_description)
 
     notify("prompting")
+    openai_client = OpenAI(api_key=get_api_key())
     response = openai_client.chat.completions.create(**payload)
-    py_response = response.model_dump()
 
+    notify("got response")
+    py_response = response.model_dump()
     content = py_response['choices'][0]['message']['content']
 
     print(content)
