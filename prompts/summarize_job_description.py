@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 
 import sys
-from openai import OpenAI
 from pathlib import Path
-from common import notify, get_api_key
+from common import notify, get_api_key, do_prompt, get_job_description_and_company_name
 
 def make_payload(company_name, job_description):
   return  {
@@ -23,26 +22,13 @@ def make_payload(company_name, job_description):
     ]
   }
 
-def get_job_description_and_company_name(filepath):
-    job_description = open(filepath, "r").read()
-    company_name = filepath.name
-    return company_name, job_description
-
 def main(filepath: Path):
     notify("starting script: " + __file__)
     company_name, job_description = get_job_description_and_company_name(filepath)
 
     payload = make_payload(company_name, job_description)
-
-    notify("prompting")
-    openai_client = OpenAI(api_key=get_api_key())
-    response = openai_client.chat.completions.create(**payload)
-
-    notify("got response")
-    py_response = response.model_dump()
-    content = py_response['choices'][0]['message']['content']
-
-    print(content)
+    response = do_prompt(payload)
+    print(response)
 
 
 if __name__ == '__main__':
