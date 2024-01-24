@@ -1,32 +1,33 @@
 #!/usr/bin/env python3
+#!/usr/bin/env python3
 
 import sys
 from openai import OpenAI
 from pathlib import Path
 from common import notify, get_api_key
 
-def make_payload(company_name, job_description):
+def make_payload(company_name, job_offer_listing):
   return  {
-    "model" : "gpt-3.5-turbo",
+    "model": "gpt-4",
     "messages": [
       {
         "role": "system",
-        "content": (
-            f"Perform a focused internet search on {company_name} to obtain key information relevant to provided job offer listing."
-            "Concentrate on extracting concise, pertinent details that will directly assist in tailoring a resume for the specific job offer."
-        )
+        "content": f"Use internet search tools to explore and collect creative and engaging information about {company_name} that resonates with the essence of the {job_offer_listing}. Focus on unique aspects like company initiatives, culture, and employee experiences that will inspire a distinctive and compelling customization of a resume for this job opportunity."
       },
       {
         "role": "user",
-        "content": f"I have a job offer listing from {company_name}. Here it is:\n {job_description}. I need you to quickly find and summarize the most important information about OpenAsset that I should include in my resume for this job."
+        "content": f"Here's a job offer I'm excited about from {company_name}: {job_offer_listing}. I want to create a resume that really stands out. Please find interesting and unique information about {company_name} that I can use to make my resume creative and engaging."
+                   "For each information chunk, show me the url of where you retrieved it."
       }
     ]
   }
 
 def get_job_description_and_company_name(filepath):
+
     job_description = open(filepath, "r").read()
     company_name = filepath.name
     return company_name, job_description
+
 
 def main(filepath: Path):
     notify("starting script: " + __file__)
@@ -46,5 +47,5 @@ def main(filepath: Path):
 
 
 if __name__ == '__main__':
-  filepath = Path(sys.argv[1])
-  main(filepath)
+    filepath = Path(sys.argv[1])
+    main(filepath)
