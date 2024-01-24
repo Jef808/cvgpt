@@ -7,3 +7,4 @@ def get_api_key():
 
 def notify(message):
   subprocess.run(["notify-send", message])
+
