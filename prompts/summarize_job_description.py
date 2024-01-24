@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import os
+import subprocess
 from openai import OpenAI
 
 DEFAULT_MODEL = "gpt-4"
@@ -145,12 +146,16 @@ def make_payload(*, company_name, job_description):
 def get_api_key():
     return os.getenv('OPENAI_API_KEY')
 
+def notify(message):
+  subprocess.run(["notify-send", message])
 
 def main():
+    notify("starting script: " + __file__)
     openai_client = OpenAI(api_key=get_api_key())
 
     payload = make_payload(company_name=company_name, job_description=job_description)
 
+    notify("prompting")
     response = openai_client.chat.completions.create(**payload)
     py_response = response.model_dump()
 
