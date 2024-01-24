@@ -11,20 +11,19 @@ def make_payload(company_name, job_offer_listing):
     "messages": [
       {
         "role": "system",
-        "content": f"Use internet search tools to explore and collect creative and engaging information about {company_name} that resonates with the essence of the {job_offer_listing}. Focus on unique aspects like company initiatives, culture, and employee experiences that will inspire a distinctive and compelling customization of a resume for this job opportunity."
+        "content": f"Perform a focused internet search on {company_name} to obtain key information relevant to the {job_offer_listing}. Concentrate on extracting concise, pertinent details that will directly assist in tailoring a resume for the specific job offer."
       },
       {
         "role": "user",
-        "content": f"Here's a job offer I'm excited about from {company_name}: {job_offer_listing}. I want to create a resume that really stands out. Please find interesting and unique information about {company_name} that I can use to make my resume creative and engaging."
-                   "For each information chunk, show me the url of where you retrieved it."
+        "content": f"I have a job offer listing from {company_name}. Here it is: {job_offer_listing}. I need you to quickly find and summarize the most important information about {company_name} that I should include in my resume for this job. "
+                    "For each information chunk, show me the url of where you retrieved it."
       }
-    ]
+    ],
   }
 
 def get_job_description_and_company_name(filepath):
-
     job_description = open(filepath, "r").read()
-    company_name = filepath.name
+    company_name = filepath.stem
     return company_name, job_description
 
 
