@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import os
 import argparse
 import subprocess
 import json
@@ -7,8 +8,9 @@ from openai import OpenAI
 
 DEFAULT_MODEL = "gpt-4"
 
-def make_payload(args, prompt):
-    {
+def make_payload(args):
+  return  {
+    "model" : "gpt-4",
     "messages": [
       {
         "role": "system",
@@ -142,21 +144,18 @@ I need you to quickly find and summarize the most important information about Op
 
 
 def get_api_key():
-    api_key = subprocess.check_output(["pass", "openai.com/api_key"])
-    api_key = str(api_key, encoding="utf-8").rstrip()
-    return api_key
-
+    return os.getenv('OPENAI_API_KEY')
 
 
 def main():
     parser = argparse.ArgumentParser(description='Process some arguments.')
     parser.add_argument('--model', type=str, help='Model to use.', default=DEFAULT_MODEL)
-    parser.add_argument('command', nargs='?', help='Optional command')
     args = parser.parse_args()
+
 
     openai_client = OpenAI(api_key=get_api_key())
 
-    payload = make_payload(args, command)
+    payload = make_payload(args)
 
     response = openai_client.chat.completions.create(**payload)
     py_response = response.model_dump()
