@@ -1,0 +1,14 @@
+{
+    "concise_and_direct": {
+        "temperature": 0.4,
+        "top_k": 50
+    },
+    "in_depth_and_analytical": {
+        "temperature": 0.6,
+        "top_k": 90
+    },
+    "creative_and_engaging": {
+        "temperature": 0.8,
+        "top_k": 110
+    }
+}
