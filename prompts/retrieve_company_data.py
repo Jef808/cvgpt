@@ -7,7 +7,7 @@ from common import notify, get_api_key
 
 def make_payload(company_name, job_offer_listing):
   return  {
-    "model": "gpt-4",
+    "model": "gpt-3.5-turbo",
     "messages": [
       {
         "role": "system",
