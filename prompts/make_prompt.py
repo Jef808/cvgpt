@@ -6,6 +6,8 @@ from openai import OpenAI
 
 DEFAULT_MODEL = "gpt-4"
 
+company_name = "OpenAsset"
+
 job_description ="""
 OpenAsset - New York, NY
 $150,000 - $195,000 a year
@@ -122,20 +124,20 @@ Monday to Friday
 Work Location: Hybrid remote in New York, NY 1001.
 """
 
-def make_payload(job_description):
+def make_payload(*, company_name, job_description):
   return  {
     "model" : "gpt-4",
     "messages": [
       {
         "role": "system",
         "content": (
-            "Perform a focused internet search on OpenAsset to obtain key information relevant to provided job offer listing."
+            f"Perform a focused internet search on {company_name} to obtain key information relevant to provided job offer listing."
             "Concentrate on extracting concise, pertinent details that will directly assist in tailoring a resume for the specific job offer."
         )
       },
       {
         "role": "user",
-        "content": f"I have a job offer listing from OpenAsset. Here it is:\n {job_description}. I need you to quickly find and summarize the most important information about OpenAsset that I should include in my resume for this job."
+        "content": f"I have a job offer listing from {company_name}. Here it is:\n {job_description}. I need you to quickly find and summarize the most important information about OpenAsset that I should include in my resume for this job."
       }
     ]
   }
@@ -148,7 +150,7 @@ def get_api_key():
 def main():
     openai_client = OpenAI(api_key=get_api_key())
 
-    payload = make_payload(job_description)
+    payload = make_payload(company_name=company_name, job_description=job_description)
 
     response = openai_client.chat.completions.create(**payload)
     py_response = response.model_dump()
