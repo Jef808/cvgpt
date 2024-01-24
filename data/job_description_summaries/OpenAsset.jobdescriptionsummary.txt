@@ -1,0 +1,15 @@
+{"completion_tokens": 301, "prompt_tokens": 1301, "total_tokens": 1602}
+Based on the job offer listing from OpenAsset.txt, here are the key details you should include in your resume for the Staff Software Engineer - Frontend position:
+
+- OpenAsset is a Digital Asset Management solution built for the Architecture, Construction, and Engineering industries.
+- OpenAsset is a rapidly growing global company with over 800 clients and 20 years of experience.
+- The company promotes diversity and inclusion, and values a collaborative working environment.
+- They are looking for a Staff Software Engineer - Frontend based in NYC or London.
+- The role involves leading the frontend team and crafting exceptional user experiences using React, TypeScript, and JavaScript.
+- Responsibilities include project ownership, cross-team collaboration, technical leadership, communication, mentorship, and strategic problem solving.
+- Required skills and experience include 7+ years of frontend engineering experience, 3+ years of technical leadership experience and/or managing teams, proficiency in JavaScript, TypeScript, React, and HTML/CSS, and a deep understanding of continuous refactoring, UI architecture, and working with multiple systems at scale.
+- Technologies used include React, GraphQL, TypeScript, SASS, Jest, GitHub, CircleCI, and AWS.
+- The company offers a competitive salary, medical/dental/vision coverage, paid time off, work-from-home flexibility, commuter benefits, 401(k), and career growth opportunities.
+- This position is full-time and located in New York, NY.
+
+Remember to tailor these details to fit your own experience and qualifications when updating your resume.

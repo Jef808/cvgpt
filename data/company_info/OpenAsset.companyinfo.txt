@@ -1,0 +1,25 @@
+{"completion_tokens": 413, "prompt_tokens": 2519, "total_tokens": 2932}
+I am an AI developed by OpenAI and currently don't have the capability to browse the internet in real time or perform an internet search. However, based on the job description provided, here are some suggestions for tailoring your resume:
+
+
+1. Highlight your years of experience: Since the job requires 7+ years of frontend engineering experience, ensure to mention this in your resume.
+
+2. Technical leadership: The job requires experience in technical leadership and/or managing teams. Include in your resume any leadership roles or responsibilities you've had, particularly ones relevant to software engineering.
+
+3. Proficient in multiple languages and technologies: The job listing mentions proficiency in Javascript, Typescript, React, HTML/CSS, GraphQL, SASS, Jest, Github, Webpack, etc. Mention your familiarity with these languages and any relevant projects.
+
+4. Agile/Scrum methodology: The job entails working in an Agile/Scrum methodology, so including experiences and certifications about this would be advantageous.
+
+5. Degree in a technical field: If you have a Bachelors or Masters in Computer Science, Engineering or another related technical field, definitely include this.
+
+6. Problem-solving and strategic thinking: The job listing mentions the importance of strategic problem-solving skills, so include any instances where you creatively solved technical problems or implemented new procedures for efficiency.
+
+7. Communication and mentorship: They value effective communication and the ability to mentor. Highlight any experiences where you've helped or mentored others.
+
+8. Championing best practices and continuous improvement: Include instances where you've improved processes, championed best coding practices, and worked to improve systems for reusability and testability.
+
+9. Experience with system and UI architecture at scale: If you have experience working with system and UI architecture, especially at scale, it would be valuable to include these in your resume.
+
+10. Security and compliance: Include any experience or familiarity with principles of security, reliability, privacy, and compliance in software development.
+
+Remember to tailor your resume to showcase how your experience and skills match these requirements. Good luck!
