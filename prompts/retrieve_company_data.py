@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import sys
+import json
 from openai import OpenAI
 from pathlib import Path
 from common import notify, get_api_key
@@ -27,21 +28,32 @@ def get_job_description_and_company_name(filepath):
     return company_name, job_description
 
 
+def do_prompt(payload):
+    notify("prompting")
+    openai_client = OpenAI(api_key=get_api_key())
+    response = openai_client.chat.completions.create(**payload)
+
+    notify("got response")
+
+    py_response = response.model_dump()
+    content = py_response['choices'][0]['message']['content']
+
+    usage = py_response['usage']
+    print(json.dumps(usage))
+
+    return content
+
+
 def main(filepath: Path):
     notify("starting script: " + __file__)
     company_name, job_description = get_job_description_and_company_name(filepath)
 
     payload = make_payload(company_name, job_description)
 
-    notify("prompting")
-    openai_client = OpenAI(api_key=get_api_key())
-    response = openai_client.chat.completions.create(**payload)
+    response = do_prompt(payload)
 
-    notify("got response")
-    py_response = response.model_dump()
-    content = py_response['choices'][0]['message']['content']
 
-    print(content)
+    print(response)
 
 
 if __name__ == '__main__':
