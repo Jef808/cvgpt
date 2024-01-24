@@ -9,7 +9,7 @@
       },
       {
         "role": "user",
-        "content": "I have a job offer listing from {{company_name}}. Here it is: {{job_offer_listing}}. I need you to quickly find and summarize the most important information about {{company_name}} that I should include in my resume for this job."
+        "content": "I have a job offer listing from {{company_name}}. Here it is: {{job_offer_listing}}. I need you to quickly find and summarize the most important information about {{company_name}} that I should include in my resume for this job. For each information chunk, show me the url of where you retrieved it."
       }
     ]
   },
@@ -21,7 +21,7 @@
       },
       {
         "role": "user",
-        "content": "I'm considering applying to {{company_name}} and have found this job offer: {{job_offer_listing}}. Please conduct thorough research on the company and provide me with detailed insights that will help in crafting a detailed and analytically tailored resume."
+        "content": "I'm considering applying to {{company_name}} and have found this job offer: {{job_offer_listing}}. Please conduct thorough research on the company and provide me with detailed insights that will help in crafting a detailed and analytically tailored resume. For each information chunk, show me the url of where you retrieved it."
       }
     ]
   },
@@ -33,7 +33,7 @@
       },
       {
         "role": "user",
-        "content": "Here's a job offer I'm excited about from {{company_name}}: {{job_offer_listing}}. I want to create a resume that really stands out. Please find interesting and unique information about {{company_name}} that I can use to make my resume creative and engaging."
+        "content": "Here's a job offer I'm excited about from {{company_name}}: {{job_offer_listing}}. I want to create a resume that really stands out. Please find interesting and unique information about {{company_name}} that I can use to make my resume creative and engaging. For each information chunk, show me the url of where you retrieved it."
       }
     ]
   }
