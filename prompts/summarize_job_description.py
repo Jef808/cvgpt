@@ -23,12 +23,10 @@ def make_payload(company_name, job_description):
     ]
   }
 
-
 def get_job_description_and_company_name(filepath):
     job_description = open(filepath, "r").read()
     company_name = filepath.name
     return company_name, job_description
-
 
 def main(filepath: Path):
     notify("starting script: " + __file__)
