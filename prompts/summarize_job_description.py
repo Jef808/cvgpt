@@ -6,9 +6,7 @@ import subprocess
 from openai import OpenAI
 from pathlib import Path
 
-DEFAULT_MODEL = "gpt-4"
-
-def make_payload(*, company_name, job_description):
+def make_payload(company_name, job_description):
   return  {
     "model" : "gpt-4",
     "messages": [
@@ -41,7 +39,7 @@ def main():
     job_description = open(filepath, "r").read()
     company_name = filepath.name
 
-    payload = make_payload(company_name=company_name, job_description=job_description)
+    payload = make_payload(company_name, job_description)
 
     notify("prompting")
     response = openai_client.chat.completions.create(**payload)
