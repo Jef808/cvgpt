@@ -1,0 +1,156 @@
+% Reconstructed LaTeX Code for the Resume
+
+\documentclass[10pt,a4paper,ragged2e,withhyper]{altacv}
+
+% Change the page layout if you need to
+\geometry{left=1.25cm,right=1.25cm,top=1.5cm,bottom=1.5cm,columnsep=1.2cm}
+
+\usepackage{paracol}           % For the sidebar
+
+\ifxetexorluatex
+    \setmainfont{RobotoSlab}
+    \setsansfont{Lato}
+    \renewcommand{\familydefault}{\sfdefault}
+\else
+    \usepackage[rm]{roboto}
+    \usepackage[defaultsans]{lato}
+    \renewcommand{\familydefault}{\sfdefault}
+\fi
+
+% Change the colours if you want to
+\definecolor{VividPurple}{HTML}{3E0097}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\definecolor{PastelRed}{HTML}{8F0D0D}
+% \colorlet{name}{black}
+\colorlet{tagline}{PastelRed}
+\colorlet{heading}{VividPurple}
+\colorlet{headingrule}{VividPurple}
+\colorlet{subheading}{PastelRed}
+\colorlet{accent}{VividPurple}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+\renewcommand{\cvItemMarker}{{\small\textbullet}}
+\renewcommand{\cvRatingMarker}{\faCircle}
+
+% Packages and configurations (based on typical requirements of altacv)
+%\usepackage{hyperref}          % For hyperlinks
+%\usepackage{graphicx}          % For loading images
+
+\begin{document}
+
+% Define personal data for the header
+\name{JEAN-FRANÇOIS ARBOUR}
+\tagline{Software Development, Mathematics}
+
+\personalinfo{%
+  \email{jf.arbour@gmail.com}
+  \phone{(+631) 740-0772}
+  \location{New-York, USA}
+  \linkedin{Jef808}
+  \github{Jef808}
+}
+
+\makecvheader % Creates the header
+
+\AtBeginEnvironment{itemize}{\small}
+
+\columnratio{0.6} % Set the ratio of the columns
+
+\begin{paracol}{2}
+
+\cvsection{Work Experience}
+
+\cvevent{Web Developer - Frontend}{Destm Technologies}{March 2023 -- Present}{Remote}
+\begin{itemize}
+\item \textbf{Description:} Working on the ToryBurch ecommerce website as a
+contractor, part of a team responsible for customer interaction
+matters. The codebase, devOps and product management
+infrastructures are mature, wide in depth, and the team is very active,
+engaged and experienced in various complementary domains.
+\item \textbf{Role:} I mostly work towards adapting existing features and
+frameworks to allow non-critical resources to be dynamically loaded
+as users interact with the site. This involves understanding some of
+the more technical aspects of frontend development and
+benchmarking various performance-related metrics against new
+strategies of bundling and serving the source code.
+\item \textbf{Technologies:}
+  \begin{itemize}
+    \item \textbf{React}, \textbf{Redux}, and \textbf{Typescript} during main development
+    \item \textbf{Webpack} for module bundling
+    \item \textbf{Jest} with \textbf{react-testing-library} for systematic unit testing
+    \item \textbf{Adobe Experience Manager} for Content Management System
+    \item \textbf{Java} for the backend
+    \item \textbf{Selenium Webdriver} with \textbf{Cucumber} for end-to-end testing
+  \end{itemize}
+\end{itemize}
+
+\divider
+
+\cvevent{Phd Candidate, Teaching Assistant and Lecturer}{Stony Brook University}{Aug 2015 -- Dec 2022}{New York, USA}
+\begin{itemize}
+\item \textbf{Description:}Each semesters, I served as a teaching assistant and as a
+lecturer for most summers. The courses ranged from beginning
+undergraduate to graduate level mathematics.
+
+\item \textbf{Skills Gained:}
+  \begin{itemize}
+    \item Extensive experience in working through complex problems methodically.
+    \item Excellent sense of communication, especially in a context of technical exchange between collegues of varied expertize.
+    \item Familiarity with geometry libraries, e.g. CGAL and libIGL, along with vizualisation libraries, e.g. matplotlib and d3.js.
+  \end{itemize}
+\end{itemize}
+
+% Switch to the second column (sidebar)
+\switchcolumn
+
+\cvsection{Education}
+
+\cvevent{Ph.D. in Mathematics \hspace{20px} \small{(On hold)}}{Stony Brook University}{Aug 2015 -- Dec 2022 \hspace{8px} Geometric Analysis}{}
+
+My research was in the field of \emph{geometric analysis},
+in particular the study of the \emph{Ricci Flow} on geometric objects of higher
+dimension. This area of mathematics is
+broadly conderned with deriving knowledge
+of geometric objects by analyzing certain
+\emph{Partial Differential Equations} arising from the
+underlying geometric property of the object.
+This led me to focus on computational
+approaches to solve these abstract
+questions, and I eventually decided to move
+my efforts entirely to software development
+and engineering.
+
+\divider
+
+\cvevent{Masters in Mathematics}{Université du Québec à Montréal}{Aug 2013 -- Jun 2015 \hspace{6px} Differential Geometry}{}
+Those two years gave me the chance to start developping the self-confidence and
+correct state of mind required to feel comfortable with the frustration and
+insecurities arising when tackling new and difficult problems.
+
+\divider
+
+\cvevent{Bachelor in Mathematics}{Université du Québec à Montréal}{Aug 2010 -- May 2013 \hspace{17px} \hspace{26px} GPA: 4.0}{}
+
+
+\cvsection{Skills \& Tools}
+
+\begin{itemize}
+\item \textbf{C/C++:} STL, BGL, Imgui, Eigen, CGAL, Mlpack, Cmake, Catch2, gpg
+\item \textbf{Python:} Matplotlib, Numpy, Keras, General scripting
+\item \textbf{Javascript:} React, Redux, VueJs, d3, TypeScript, NodeJs
+\item \textbf{Web:} Html, CSS, Webpack, Chrome/Firefox Devtools
+\item \textbf{Other:} Linux, Bash, Git, LaTeX, Emacs
+\end{itemize}
+
+\cvsection{Spoken Languages}
+
+\begin{itemize}
+\item French
+\item English
+\end{itemize}
+% Sidebar content (Skills, Languages, etc.) will be included here
+
+\end{paracol}
+\end{document}
