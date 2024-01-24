@@ -1,4 +1,4 @@
-{# templates/job_offer_summarization #}
+{# templates/job_description_summarization #}
 
 {
   "concise_and_direct":
@@ -11,7 +11,7 @@
         },
         {
         "role": "user",
-        "content": "I have a job offer from {{company_name}}, as listed on {{source_of_listing}}. Here's the job offer details: {{job_offer_listing}}. Based on this, I'm looking for additional insights and information that will help me customize my resume to align with {{company_name}}'s expectations and values."
+        "content": "I have a job offer from {{company_name}}, as listed on {{source}}. Here's the job offer details: {{job_description}}. Based on this, I'm looking for additional insights and information that will help me customize my resume to align with {{company_name}}'s expectations and values."
         }
     ],
   },
@@ -25,7 +25,7 @@
         },
         {
           "role": "user",
-          "content": "I have a job offer from {{company_name}}, as listed on {{source_of_listing}}. Here's the job offer details: {{job_offer_listing}}. Based on this, I'm looking for additional insights and information that will help me customize my resume to align with {{company_name}}'s expectations and values."
+          "content": "I have a job offer from {{company_name}}, as listed on {{source}}. Here's the job offer details: {{job_description}}. Based on this, I'm looking for additional insights and information that will help me customize my resume to align with {{company_name}}'s expectations and values."
         }
     ]
   },
@@ -39,7 +39,7 @@
         },
         {
         "role": "user",
-        "content": "I have a job listing from {{company_name}} as shown on {{source_of_listing}}: {{job_offer_listing}}. I need in-depth information on the company, beyond the basics, to strategically tailor my resume for this opportunity."
+        "content": "I have a job listing from {{company_name}} as shown on {{source}}: {{job_description}}. I need in-depth information on the company, beyond the basics, to strategically tailor my resume for this opportunity."
         }
     ],
 

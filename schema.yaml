@@ -19,7 +19,7 @@ paths:
       responses:
         '200':
           description: Resume uploaded successfully
-  /upload_job_offer_listing:
+  /upload_job_description:
     post:
       summary: Upload a job offer listing
       requestBody:
@@ -29,7 +29,7 @@ paths:
             schema:
               type: object
               properties:
-                job_offer:
+                job_description:
                   type: string
                   format: binary
       responses:
@@ -47,11 +47,11 @@ paths:
       responses:
         '200':
           description: Company information retrieved
-  /summarize_job_offer_listing:
+  /summarize_job_description:
     get:
       summary: Summarize a job offer listing
       parameters:
-      - name: job_offer_id
+      - name: job_description_id
         in: query
         required: true
         schema:
