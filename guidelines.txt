@@ -1,0 +1,420 @@
+TECH RESUME GUIDE Software engineers know that there is no one fit-size solution for anything
+Be that developing a website, solving an algorithm, or designing an architecture
+While this guide promises to deliver great content to help you ace a job interview, it doesn't guarantee a job upfront or a recruiter call every time
+There are plenty of factors that contribute to job hunting
+While few are in hands, few aren't
+It's that dead simple
+So what are the factors that you need to take care of? There are plenty of factors that contribute to job hunting
+While few are in hands, few aren't
+It's that dead simple
+Skills You must have relevant skills to apply for a specific job
+Experience Some industry experience can make your resume stand out more
+Communication You should at least communicate well in English (as its international language), if not a fluent speaker
+Then what are the factors you can't control? Position The position might have already been fulfilled\u2014without you knowing about it
+Competition You might have a strong resume with great expertise, but someone might have more than you to impress the recruiter
+Especially after Covid-19, you will have to compete worldwide\u2014if applying for remote work
+Location Although most of the jobs are remote these days, people who are near or don't need to relocate are preferred by hiring staff
+SeniorityCertain companies only look for specific seniority roles
+If you are just starting or have less than a few years of experience, you're likely to be overlooked
+Luck Luck always plays a role, take it or not
+To make it less of a factor, you can go for referrals
+(In the following chapters, I will share the tips on how to get a good referral)
+Now you know what it takes to be ready for a job/role
+Let's move on to writing a resume than can sell you for the position you have been applying for
+A great resume: Showcases rare and valuable skills that are exactly what the job needs
+It's built on years of experience you gathered that makes you stand out from the crowd
+It shows a solid progression throughout your journey
+You take upon new roles/challenges/responsibilities and are not afraid of learning new things
+Remember that preparation and persistence will make a difference
+One without the other is an invitation to rejection
+To get your dream job, you have to do the hard work
+Staying positive, focused, and creative will help you climb the staircase of victory
+How to be a Kickass New Software Engineer guide (If you get a page not found, log into your linkedin account first) Keep looking for some inspirations or stories about how people went from ground zero to software heroes
+It will not just boost your morale but also guide you like a map
+You know, one can learn a lot from other experiences
+Now we understand what it takes before creating a resume it's time to write that resume.How do you write a good developer resume? These are some essential points that you must take into consideration while writing your resume:
+1
+Years of Experience: How long have you been working? The recruiter will check your education and year of passing to calculate how long it has been for you? They will internally match these years with the years of experience they need
+They will also evaluate you with other candidates
+The more experience you have, the more are your chances of getting into the *Yes pile* of resumes
+If you make this info hard to find, you might end up in the *Reject pile*
+Make sure to provide transparent information
+2
+Relevant Technologies: How much relevant experience do you have? E.g
+If you're applying for a Frontend role and know a little of backend stuff, recruiters will prioritize you over other applicants that only know frontend
+3
+Work Experience: How much relevant work experience do you have? Do you come across as someone who has consistently delivered the impact? Don't misunderstand the work experience with the year of experience
+While the year of experience is the time you have spent so far, the work experience is the impact you have delivered in the entire industry
+You might have solved a complex problem in your job/internship or even a freelance project
+Be that building a highly secure API, catchy frontend website, or marvelous UI/UX architecture
+It's all measured in your work experience
+Another awesome thing you can include in this is your open-source work
+Have you contributed to any open-source project which is famous and widely used?4
+Ground Rules: We need to follow a few things to write a professional resume
+Make sure your resume follows these traditional points: Good grammar and No typos Your resume represents you
+It has to be the best
+If you allow typos or poor grammar, it will reflect your personality carelessly\u2014someone who doesn't pay attention to details or doesn't have a good command of the language
+Use free spell-checking tools and grammar checking tools such as Grammarly
+Even better is to ask people to re-read your resume
+Basic contact details\" Include your email address and relevant contact information, like phone number, city & country where you live, at the top
+Keep it short
+You don't have to add your full address or other unnecessary details
+Dates in reverse chronological order\" Point your work and education experiences with precise dates
+List them from the latest on the top to earlier ones underneath it
+Don't include photos or non-required personal information
+Many people make this mistake
+Including photos or personal information, like date of birth, relationship status, and religion, creates bias
+It's about your skills and not looks
+Two Pages or less\" It's not a strict rule, but wise to follow
+If you're a fresh grad or someone with 1 - 2 years of experience, it's not expected from you to fill two pages
+A one-page resume is enough here
+You can go for a two-page resume if you have ample work experience that counts
+Still, the max limit should be two pages
+Recruiters don't have time to go through your 3-5 page resume in a pile of 100+ resumes
+5
+Simplicity and ConsistencyResumes that are simple, concise, and easy to read will be read more
+Writing well is an underrated skill in a resume
+Clear, neat, and consistent formatting: Use the same formatting, font size, and font family throughout the resume
+It helps for a smooth read
+Bullet points \u0085 Short sentences with bullet points are easier to read over long, overly verbose paragraphs
+Bullets points are easy to scan for recruiters
+They are used to it
+Avoid sub-bullet points
+It clutters your resume, making it harder to read
+Avoid dashes (-) for bullet points too
+It looks out of place and doesn't stand out well at first glance over bullet points
+Date formats Format like 08/07 - 20/12 is hard to understand
+The reviewer has to think over the date, \u201cOh, it's from the 8th of 2007 to the 20th of 2012\u201d
+The year is not differentiated from the date
+Instead, directly use the standard format \u2014 August 2007 - December 2012
+Easy to read in seconds
+Don't forget to stick with the same format throughout the resume
+Resume format Do not, I repeat, do not send any format other than PDF
+Formats like .doc, .rtf display content inconsistently on different machines
+What you see might differ from what the recruiter sees
+You don't know reviewers/recruiters' machine specifications, do you? Other Information Avoid that trivial info that doesn't bring value to your resume
+If you have something important that can help you stand out, e.g., your school & achievements, maybe you presented as a leader of your batch in your college, or that university competition\u2014both technical and non-technical (sports), add it at the end of the resume.After the generalized points of the resume comes its structure
+Let's understand how to structure a resume: There are two types of software developers: one who had their first job and one looking to land a job
+You'll want to structure your resume differently depending on who you are
+For those who had a job, your work experience, professional skills, and the technologies you worked in that company matter on your resume
+While for the new grad, it's their internship, open-source contribution, or a personal project that helps them jump out of the crowd
+When you're a student or new grad, you often feel you have little to no experience to show
+Even though that's the case, you can always make the most of what you have
+Start building personal projects
+Go for some freelancing projects
+Apply for internships
+You can do anything as you're just starting! Here are the experiences that catch the eyes of people reviewing your resume the most, in priority order: 1
+Real-world work software development experience \u0083 If you have/had been working as a part-time or full-time developer, list it and your achievements
+Show how you delivered and progressed in your career
+2
+Internships \u0083 You can attract attention with the internships on your resume
+But don't forget that there will be many people with internships while applying to large tech companies
+Specify your contribution and results from the internships
+3
+Open Source Projects If you have created a project with many contributors, show it off
+If you contribute to a certain open-source project frequently, show it off
+If you have taken part & contributed as an open-source contributor in any organization, show it off
+If you are not in any of these categories, it's time to do something
+Find a project, join an organization or create something on your own
+4
+School/College Details Especially if you have attended a highly prestigious school/college and have high grades, this can be a remarkable addon.
+5
+Projects Have you built any project which has some great functionalities? Do you have something that can show the impact or metrics of your Project? You can list your creative, complex projects in the projects section of your resume
+Link the source code on Github with a good README
+6
+Tutoring or Leadership: Have you been some part of NGOs where you taught some programming? Or you might have taken upon leadership in your college where you led your batch
+Anything that you have collaboratively done to do a project or teaching
+It shows your team's skills & proficiency in the field
+Don't miss adding that
+A new grad resume structure:
+1
+Experience
+2
+Projects
+3
+Education & Certification
+4
+Languages & Technologies
+5
+Interests Fit all these on one page
+As you have more working experience, a second page will make sense
+How can new grads and interns grab the attention of recruiters? Sebastian Prieto Tovar and Claire Taylor have recruited hundreds of students and interns for Uber and other tech companies
+Here's the advice they have for people starting: We always tell students to read the job description, then amend their resume accordingly
+And reach out directly to the recruiter when you can
+We look for your studies, relevant courses, and what you're best at with studies on a resume
+We also care about extracurricular activities, hackathons, working in teams outside school, apps, websites, and other cool things you created outside school
+Do spend plenty of time preparing for the interviews themselves
+Read about the company, watch the videos, learn about the culture, read stories about employees, and understand the job description
+Work Experience structure: 1
+Work Experience at or near the top of the page Your current title, company, and past few years of experience2
+Have a Languages and Technologies section on the first page
+List things you are an expert or, at the very least, proficient at in order
+Mention the languages and frameworks that the job description mentions
+Don't bother listing non-relevant technologies like Jira or Trello
+3
+If you have spent a long time at one workplace.List key projects you developed and shipped
+You would like to mention roles or responsibilities you take upon promotion, if any
+It shows progression
+Write all these in a new sub-work section
+4
+Education details It becomes less important as you progress in your career
+If you have less than 1-3 years of experience, it's good to go with
+With more experience, you would like to focus more on work experience than past education details
+5
+Certifications List the relevant certification related to the job industry below the work experience
+Make sure these certifications show some quality
+Trivial certification, like LinkedIn certification, doesn't add significance
+6
+Projects The more experience you have, the less relevant outside-work projects tend to become
+List only those projects that are outstanding in the extra curriculum section
+7
+Interests Point out a few things that interest you to make the resume more \u201chuman.\u201d Keep it short
+As a rule of thumb, avoid listing your expertise level
+Instead, list only languages you feel proficient with, and list your most vital languages and technologies first
+There is a special section that has gained different opinions from different people
+Guess? Yes, it's the summary section! Do you need to have a summary section? Many resumes start with a summary or profile section at the top
+Here is a thing: recruiters or hiring people barely read this section at first scan
+They only do so when they have decided to proceed with your application
+For less experienced candidates, it's not wise to have this section unless you customize it for job listing, showing how a great fit you are! So, where the summary section can be helpful? Senior/Standout profile: Describe your motivation, what you're looking for, and your year of experience
+Remote position: If you're looking for a fully remote position, the summary section comes in handy
+You can clarify that in the section
+Role change: If you are someone from a non-technical background who wants to switch to a technical career, having a summary specifying your motto will be very helpful
+So if you decide to go with it, make sure your summary section isn't too short or too long
+So far, we have talked about the resume's general part and its structure
+Let's focus on the crucial part of a resume, i.e., Work Experience.How to stand out from the rest with your work impact? While listing your work and projects, focus on what you achieved instead of what you did
+ You want to convey that you're self-sufficient and that your work has impacted the team & then the company
+You're well aware of your valuable contribution
+But how to stand out? There is a simple formula that Google recommends: Accomplished [X] as measured by [Y] by doing [Z] Effective resumes should contain two things: Responsibilities and Accomplishments
+ To stand out from the crowd, you must point out how you consciously and proactively added value through your work
+Edit your achievements with these points: 1
+User Numbers Quantify your impact wherever you can
+Instead of saying, \u201cBuilt a tool widely adopted by the company,\u201d say, \u201cLed a team of 3 developers to build a dependency injection framework adopted by 15 teams and all 50+ developers at the company.\u201d Numbers can be anything: Number of people on your team\" lines of code\" code coverage percentage before and after\" number of users\" number of installs\" ratings 2
+Use active language Show what you have done and how you have been proactive
+Use active verbs like \u201cled,\u201d \u201cmanaged,\u201d \u201cimproved,\u201d \u201cdeveloped,\u201d and \u201crolled out.\u201d 3
+Specific languages & technologie \u007f Mentioning technologies in your work experience is powerful
+Ensure these technologies overlap with the languages and technologies you mentioned in the standalone section
+4
+Keyword stuffing Resume filtering is done by discarding resumes that don't have specific keywords
+A workaround is to read the job description and pick all the necessary keywords
+An excellent way to keep these keywords without losing professionalism is to structure them in the \u201clanguages and technicals\u201d section, where you list technologies you're familiar with or relevant to a job
+When it comes to technical experiences, some people falsely state things
+Some might even shy away
+Don't claim untrue things, but do aim to paint a great picture of yourself
+Here are a few tips for you: 1
+Talk about yourself, not your team
+Avoid using \u201cwe.\u201d The resume is about you and not your team
+The hiring team wants you! Always use the first-person approach
+In most cases, you can drop the \u201cI.\u201d 2
+Be concise but not humble and don't hide your achievements
+When in doubt, inflating them on the borderline will hurt less than hiding them
+You never know how these small, impactful achievements can help you stand out from the competitive crowd.
+3
+Side projects & Open Source contribution Mention these in your project section with the impact-result contribution model
+Provide GitHub source code links with a proper explanation of how your project works
+Create nice READMEs containing project details with the installation process
+4
+Extracurricular activites
+Do talk about these activities at the end of the section
+Maybe you're a technical writer or content creator on social media\u2014 mention it
+Provide two links to your popular article
+Showing off high-quality or standout activities can make a good resume even better
+5
+Mention your learning
+Learning new and valuable skills proactively is a positive trait that hiring managers appreciate
+Do mention if you picked a technology to speed up a project, gain knowledge, or stretch yourself
+6
+Don't highlight negatives You don't need to list things that don't show you in a good book
+Avoid mentioning failed projects, low GPA, CGPA scores, etc
+Remove items that don't convey you're a good fit for the role
+We have mostly covered what should go on a resume
+Yet people make some trivial mistakes
+What are these? Let's check that out! Common Mistakes 1
+Creating hard to scan resumes: Multi-column resumes are hard to scan for managers
+Simple formats are better
+Go utmost for a two-column layout
+2
+Too much bolding A resume should have minor and consistent bolding for critical parts, such as dates, titles, and companies
+Don't bold random parts that don't make sense at all
+3
+Flashy resumes A developer's resume is 95% about the content and 5% about the style
+It works if you're applying for a UI/UX role as it's more about style with creativity
+4
+Inconsistent formatting Pay attention to the fine details
+Keep everything consistent
+5
+Sloppy phrases Avoid unprofessional language
+Don't use etc., so on, etc
+6
+Using internal acronyms and jargon Avoid using internal project names that people outside the company don't understand
+E.g., \u201cI did FD in aplha2.0 project\u201d
+A recruiter can't guess what your FD is in aplha2.0
+7
+Not reflecting on the job and not tailoring the resume for the position Say if you know both frontend and backend but applying for a specific frontend role
+You will want to present yourself as someone who knows the front end enough
+Backend is a sidekick here
+ Always keep the job position in mind, then tailor your resume
+8
+Using cliches over statements backed by evidence What does the following sentence tell you about you? \u201cI am a team player and a fast learner who can hit the ground running.\u201d From the point of view of the recruiter, it doesn't provide anyinformation
+It's not backed by any fact or evidence that can state it
+Let your actions speak for themselves 9
+Being too verbose Avoid blocks of text or long sentences
+It doesn't help for an easy read.Keep it short and up to the point 10
+Unnecessary details Do not add photos or irrelevant contact information
+If not needed or not in the job's context, do not mention spoken languages
+Most companies will only care about your proficiency in English
+11
+Self-rating your skill level Do not rate your proficiency in any language or technology using percentages or scores
+It's not necessary
+No one knows anything about a programming language/technology
+12
+Non-clickable or full links Cross verify if, by mistake, you have added non-clickable links
+Add proper links to GitHub, websites, and other media
+Recruiters will not copy-paste the name/username to see it
+Make clickable links and hide the full URL behind a name that describes what the link is for
+13
+StaleLinking It's better to leave it empty rather than linking to stale or not- touched-in-decade websites or GitHub profile links
+Link only if they are up to date
+So many guidelines, and you can still commit a mistake or two, no matter what
+To recap, consider doing most of these to make your resume better: Write two different resumes, then create a third one from the best parts of these two
+Try to estimate the impacts of your project
+A rough estimation is better than no specific
+Do grammar check, not just spell-check
+Ask friends or family to proofread
+Seek out feedback on various community
+Do a keyword check for your resume
+ Manually or with the help of automated tools
+Different Levels, Different Paths Depending on how much experience you carry, you will want to focus on different areas of resumes: Resume for Students If you're still a student, knowing fundamentals is an essence
+While learning software development, you would want to focus on these things for a future job search: Internships One of the best experiences you can have as a student is working as an Intern
+Apply in natural problem-solving industries
+Campus Activities Your university/college might offer plenty of opportunities to work with a professor, lead a laboratory, arrange events, etc
+Make the best of these Times
+You will get hands-on experience mentoring/leading others or taking the initiative.University Projects You will undoubtedly have class projects or, to the least, the final year Project
+Consider putting extra time and effort into these projects
+Publish them so that anyone can download or try them
+Using GitHub will be super beneficial
+If possible, buy your domain
+ This might cost you bucks, but it'll be worth it to show the interviewer what you have
+Clearly, it will show you as someone who knows deployment to the least
+ Resume for Bootcamp Grads As a Bootcamp grad who has likely learned basic software development skills, your time spent studying these will be shorter than college/university students
+It would be best to compete with these graduate people and other Bootcamp grads
+But no worries if you have the capstone project on your resume
+So what do you need to focus on? Projects It's universal for everyone looking for a job
+Develop as many projects as you want, but have that one great project! To stand out, you will want to showcase better projects
+Follow these tips: \u0301 Good READMEs Aim to write a README with a good summary: screenshots, details on how to run & test
+Contribute to other open-source projects Find projects where you can contribute
+Take part in the open-source programs I mentioned earlier
+If you can merge a pull request, you can claim that you have contributed to a project used by more than a certain number of developers
+Turn interview projects/challenges or learnings into public projects You can do more than submit projects or do coding challenges for a job interview
+Without caring about the results, continue working on these projects/challenges and submit even better-polished solutions online on GitHub
+If you cannot reach the next round, ask for feedback, and build that feedback into this project
+If you do even better, don't hesitate to send a cold email with these latest changes
+You might get another chance to do it better
+No one knows unless you try
+Freelance projects Try freelancing once in life while you're in search of a job
+A freelance project on the resume can tell a lot
+Landing a good client at first can be challenging
+If your goal is to get experience, keep the focus on finding projects that can add value to your portfolio
+Publish screenshots and code snippets of the work on the portfolio page afterward
+You don't need to disclose how much you got paid
+The goal is to show your knowledge
+Resume for Career Changers Summary Have a summary section that explains your motivation/reason for a career change
+When you have changed careers from other professions to software development, most of the advice is the same as for a Bootcamp grad you might have some training behind you
+Here is advice for you: Languages & ProjectsList towards the top of the resume, showing that you have hands-on software development experience
+Follow the guidelines for listing a project, i.e., source code link, good READMEs, demo link, etc
+Past work experience Keep it concise and have a one-sentence summary of the job
+Focus on any points or skills transferable to software development, e.g., proactive learner, team leader, etc
+One-page resume Try to fit on one page
+Don't over-share past experiences if they aren't beneficial in the software field
+Resume for Career Breaks You might have gone for many months\u2014or years\u2014without a job or work in a software field
+It might be why you were pursuing something, or you wanted to take a break
+Either way, there's a gap in your resume
+How do you present this? Career break years You don't need to explain the breaks that have happened more than a few years ago \u2014 4 or 5 years
+Recruiters or hiring managers will rarely care about it
+For recent career breaks, use your good judgment on whether you want to add it
+Tell a story of your career break
+e.g.., Due to COVID-19, I decided to take a break to spend more time with my family
+How to address a career break on your CV A career break is generally de\ufb01ned as any time you've been o\ufb00 work for an extended period (of typically more than three months) that has been for any reason other than redundancy
+It can cover illness, travel, a sabbatical , having children, caring for relatives and many other reasons
+As a general rule, you should usually explain gaps in your employment history and be honest about why you were out of work as employers may uncover any exaggerations if they call previous employers for reference
+The real trick is how you position the career break
+By putting a positive spin on the time o\ufb00, many employers will be impressed and more than willing to accept it
+More than anything, they want reassurances that you won't be leaving the workforce again soon and that you're motivated to get back into employment
+Where to address the career break on your CVW hile it's always important to address your career break, you don't need to go into great detail about the time o\ufb00
+In most cases, it can be summarised in a short sentence
+But where should it be mentioned? This will depend on how recent the career break was, and possibly your motives for taking it
+\u25cf If you are on your career break right now: Say you've been out of work caring for a relative for the last six months, you'll want to explain this period out of work in your experience section as well as in your personal statement \u25cf If your career break occurred in the last one to \ufb01ve years but you're employed now: you needn't mention it in your personal statement, only in your experience section \u25cf If it was a long time ago: Did you take six months to go backpacking around India in 1995? Chances are, you probably needn't mention the career break at all How to describe the career break As noted above, you needn't go into great detail describing the career break \u2013 no more than a line or two
+The key thing here is to emphasise the positives and, if appropriate, describe any new skills learnt or courses taken
+It'll also be important to provide some reassurance that you're not planning another career break any time soon
+Again, let's look at some examples: \u25cf You went travelling: \u201cI ful\ufb01lled my life-long dream of travelling through South America for six months where I improved my Spanish and gained an understanding of di\ufb00erent cultures\u201d \u25cf You wanted a fresh start: \u201cI chose to take time o\ufb00 work to pursue my interest in painting and had the time to decide on a new career path that really \ufb01ts my personal goals\u201d\u25cf You were ill: \u201cI took time o\ufb00 work due to a lengthy illness, but the time o\ufb00 allowed me to fully regain \ufb01tness for the long-term and I became involved in volunteering at a local charity shop to get me back into the swing of work\u201d \u25cf You were caring for someone else: \u201cI took time o\ufb00 to care for my brother who has now made a full recovery\u201d Formatting can help Addressing a career break is all about accentuating the positives
+W hile you do have to mention you've been o\ufb00 work, you can format your CV in such a way that recruiters focus on other parts of your employment and personal history
+One option is to describe jobs in terms of the years you worked there, rather than exact months
+For example: \u201cMarketing Company: 2009-2010\u201d, rather than \u201cMarketing Company: November 2009-February 2010\u201d: \u25cf Perhaps during your early career, you had a few periods out of work for personal reasons, but since then have followed a standard career path
+You may just want to describe those early years in this way
+If you've had a more stable career ever since, it's probably not necessary to draw too much attention to that earlier spotty period
+Alternatively, you might want to create a \u2018skills' or \u2018themed' CV \u2013 as opposed to the more common chronological format: \u25cf Maybe for the last ten years or so you had the opportunity to live in the south of France and didn't need to work much but are now keen to return to the UK and restart your career
+Creating a skills-based CV could be really helpful here
+Take the time to think how the skills you've learnt while out of work could be reapplied
+For instance, you'd likely be \ufb02uent in French by now and capable of working in a multilingual environment
+Or you might be familiar with French tax law or the country's property market, knowledge that wouldbe very helpful for all sorts of businesses
+By making your skills stand out, employers will understand the value you could bring them and look past the time out of formal employment
+Example Summary Section for Career Break: I am a con\ufb01dent and capable o\ufb03ce manager with over ten years' experience in a range of businesses
+I have a solid understanding of all core o\ufb03ce management responsibilities, I am friendly and approachable, and I learn new skills fast
+I am now returning to the workforce after a period of absence while providing care for a relative, but am now ready and motivated to restart my career
+For the past two months I have taken on volunteering work as a part time o\ufb03ce manager at a local charity to refresh my skills
+Resume for Senior or above Engineers The more experienced you are, the more likely you stand out based on your experience and past titles
+For someone having experience of over 7-8 years, your challenge will be to keep your resume relevant to the position you're applying for: Career break years the experience you carry, the hiring team will look forward to this summary section to know about your motivation behind applying to their firm
+Soft Achievements Mention soft achievements \u2014 mentoring junior developers, leading a team, and other activities where you helped others
+Impact & Influence On top of company work, you can mention what kind of impression you made with your work
+ Mention what teams or organizations you influenced for specific outcomes
+Education As you continue gaining more experience, education will have less value
+You can move the education section to the second page
+Only keep standout details in one line or two
+Resume for Tech Leads You might have gone for many months\u2014or years\u2014without a job or work in a software field
+It might be why you were pursuing something, or you wanted to take a break
+Either way, there's a gap in your resume
+How do you present this?Follow these guidelines when applying for the tech lead position: Showcase how you helped teams
+ Hiring managers hire tech leads when they feel their team is behind on delivery, struggling with high turnover, or delivering poor quality
+As a candidate, you will want to showcase these points where you helped your team to excel, increased speed, improved code quality, or repaired stakeholder relationships
+Give examples of how you made your team successful.Y ou will be expected to have a track record
+Make it easier to find
+Specifics and Context Specify the size & makeup of the team\u20143 frontend, 2 backend & 1 QA engineer's team
+ Mention your major technical choices taken within the team
+ Outcomes and Activities Please talk about the daily scrums and how you managed to make them happen within the deadlines
+Include proof points for delivery; e.g., managed a team of x developers that delivered Project X on time and within budget
+Resume for Engineering Managers Most percentages of the guidelines shared for tech lead positions apply to the role of engineering managers
+But you would like to provide more details: Tell a story about how you achieved results, improved your team's performance, & how made your organization better.g Be familiar with the values of the company you're applying for
+Do your research on the organization' s culture.g Talk about the type of challenges you are fit to solve
+Point out what kind of problems made you achieve your best results= Get feedback from your peers or friends
+LinkedIn Along with your resume, you will want to get ready other things: LinkedIn, GitHub Profile, or cover letter
+Let's talk about how to create a better LinkedIn profile: Resumes and LinkedIn profiles are like the yin and yang
+You directly apply with a resume, and opportunities can come and find you with your LinkedIn profile
+It's smart to invest equally in both
+Headline Set a headline that represents what you want to be found for
+It should summarize the message you would want to convey
+If you set nothing on your profile, your current position will appear
+Consider adding the \u201c|\u201d separator character to add more information to your headline
+For example, \u201cFrontend developer with 2 years of experience | JavaScript, Express, MongoDB, Next.js\u201d
+A tailored headline will rank your profile higher with keyword searches that grab the recruiters' attention.Current Position Describe your current role properly
+For example, if you're leading a team of frontend developers, you should write \u201cFrontend Lead\u201d or \u201cFrontend Team Lead\u201d
+Anything that best describes your role
+If you don't have a current job, LinkedIn will rank your profile lower
+Make sure not to leave your headline empty, even if you don't have a position
+You can highlight the skills you know in that case
+Summary Mention keywords, technologies, or languages you're familiar with
+Go for a longer summary that best describes your values or motivation in the field
+You don't have to fit everything on a page on LinkedIn
+In fact, with more content, you could rank higher in search results
+So it's fine to be verbose here
+Professional photo A professional photo is one where your face can be seen properly without no one else in the picture
+Work Experience Omit work experience that doesn't support your professional career
+Your profile should tell a good story of your professional side
+Remove positions that don't strengthen this image
+Open for work Do not add \u201cLooking for opportunities\u201d, \u201copen for a new role\u201d or something similar on your headline
+It doesn't add much value
+Instead, it will take the space that you might have used to present yourself or highlight your skills
+You can activate the option given by LinkedIn to let recruiters see whether you're open for work or not
+Networking Connect with more people
+React out to the great minds! The close you are connection-wise with the recruiter, the higher your profile will rank
+Location Location is often a filter that recruiters use
+If you're moving to a different location, you can update it
+In case you're looking for remote positions, you can specify that.

@@ -1,0 +1,15 @@
+{# templates/approach_classifier #}
+
+{
+  "messages":
+  [
+    {
+    "role": "system",
+    "content": "Initiate an internet search to acquire a detailed understanding of {{company_name}}. Evaluate the tone, content, and style of their public communications and media presence. Based on these insights, identify which of the following approaches would be most suitable for further in-depth research about the company and for crafting a tailored resume for a job application at {{company_name}}: 1. Concise and Direct, 2. In-Depth and Analytical, 3. Creative and Engaging. Provide a justification for the selected approach, ensuring it aligns with the company's unique characteristics and values."
+  },
+    {
+    "role": "user",
+    "content": "I am preparing to apply for a job at {{company_name}} and need to tailor my resume accordingly. Here's the information I have gathered about them: [insert gathered information]. Based on this, advise which approach (Concise and Direct, In-Depth and Analytical, or Creative and Engaging) I should adopt for further research and resume customization, and explain why."
+  }
+  ]
+}
