@@ -2,26 +2,11 @@
 
 import os
 import argparse
-import subprocess
-import json
 from openai import OpenAI
 
 DEFAULT_MODEL = "gpt-4"
 
-def make_payload(args):
-  return  {
-    "model" : "gpt-4",
-    "messages": [
-      {
-        "role": "system",
-        "content": (
-            "Perform a focused internet search on OpenAsset to obtain key information relevant to provided job offer listing."
-            "Concentrate on extracting concise, pertinent details that will directly assist in tailoring a resume for the specific job offer."
-        )
-      },
-      {
-        "role": "user",
-        "content": """I have a job offer listing from OpenAsset. Here it is:
+job_description ="""
 OpenAsset - New York, NY
 $150,000 - $195,000 a year
 
@@ -135,9 +120,22 @@ Schedule:
 
 Monday to Friday
 Work Location: Hybrid remote in New York, NY 1001.
-
-I need you to quickly find and summarize the most important information about OpenAsset that I should include in my resume for this job.
 """
+
+def make_payload(job_description):
+  return  {
+    "model" : "gpt-4",
+    "messages": [
+      {
+        "role": "system",
+        "content": (
+            "Perform a focused internet search on OpenAsset to obtain key information relevant to provided job offer listing."
+            "Concentrate on extracting concise, pertinent details that will directly assist in tailoring a resume for the specific job offer."
+        )
+      },
+      {
+        "role": "user",
+        "content": f"I have a job offer listing from OpenAsset. Here it is:\n {job_description}. I need you to quickly find and summarize the most important information about OpenAsset that I should include in my resume for this job."
       }
     ]
   }
@@ -148,14 +146,9 @@ def get_api_key():
 
 
 def main():
-    parser = argparse.ArgumentParser(description='Process some arguments.')
-    parser.add_argument('--model', type=str, help='Model to use.', default=DEFAULT_MODEL)
-    args = parser.parse_args()
-
-
     openai_client = OpenAI(api_key=get_api_key())
 
-    payload = make_payload(args)
+    payload = make_payload(job_description)
 
     response = openai_client.chat.completions.create(**payload)
     py_response = response.model_dump()
