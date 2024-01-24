@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
 import os
-import argparse
 from openai import OpenAI
 
 DEFAULT_MODEL = "gpt-4"
