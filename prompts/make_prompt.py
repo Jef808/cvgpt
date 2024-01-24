@@ -147,18 +147,6 @@ def get_api_key():
     return api_key
 
 
-def format_response(content):
-    result = []
-    between_backticks = False
-    for line in content.split('\n'):
-        if line.strip().startswith("```"):
-            between_backticks = not between_backticks
-            continue
-        if between_backticks:
-            result.append(line)
-    response = '\n'.join(result) if result else content
-    return response
-
 
 def main():
     parser = argparse.ArgumentParser(description='Process some arguments.')
@@ -181,7 +169,7 @@ def main():
 
     content = py_response['choices'][0]['message']['content']
 
-    print(format_response(content))
+    print(content)
 
 
 if __name__ == '__main__':
