@@ -154,18 +154,12 @@ def main():
     parser.add_argument('command', nargs='?', help='Optional command')
     args = parser.parse_args()
 
-    command = args.command
-    if command is None:
-        command = input()
-
     openai_client = OpenAI(api_key=get_api_key())
 
     payload = make_payload(args, command)
 
     response = openai_client.chat.completions.create(**payload)
     py_response = response.model_dump()
-
-    log(payload, py_response)
 
     content = py_response['choices'][0]['message']['content']
 
